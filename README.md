@@ -23,7 +23,6 @@ Inspired by the surprise many feel when reviewing monthly expenses, SpendSmart a
 
 ## Screenshots
 
-**(Include a link to a screenshot of your dashboard here!)**
 ![SpendSmart Dashboard](link-to-your-screenshot.png)
 
 ## Challenges We Faced
