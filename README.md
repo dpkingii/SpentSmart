@@ -25,7 +25,10 @@ Inspired by the surprise many feel when reviewing monthly expenses, SpendSmart a
 
 ### Chrome Extension
 ![](screenshots/IMG_3643.png)
+<img src="screenshots/IMG_3643.png" width="200">
+
 ![](screenshots/IMG_4261.PNG)
+<img src="screenshots/IMG_4261.PNG" width="200">
 
 ### Mobile App
 ![](screenshots/IMG_4262.PNG)
