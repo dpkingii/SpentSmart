@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# SpendSmart - Your Proactive Spending Awareness Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpendSmart is a Chrome extension designed to help you understand your spending habits *before* the month ends. By visualizing your financial data directly within your browser, we empower you to make smarter financial decisions and avoid overspending.
 
-Currently, two official plugins are available:
+## Inspiration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Inspired by the surprise many feel when reviewing monthly expenses, SpendSmart aims to provide proactive awareness of spending patterns, enabling users to take control of their finances.
 
-## Expanding the ESLint configuration
+## What it does
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Spending Summary Dashboard:** Provides a clear visual overview of your total monthly spending.
+* **Categorized Breakdown:** Shows where your money is going with an intuitive pie chart (as seen in the screenshot).
+* **Spending Pace Tracking:** Visualizes your spending trend over time to help you stay on track.
+* **(Future Vision):** Location-based mobile alerts to warn against overspending at specific locations.
+* **(Future Vision):** AI-powered personalized insights and spending recommendations.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## How it's Built
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* **Chrome Extension:** Developed using React for the user interface and styled with CSS.
+* **Data Source:** Leverages the **Nessie API, Capital One's Hackathon API**, to generate realistic banking data for demonstration.
+* **Data Fetching:** Utilizes Chrome's runtime messaging API for secure communication with the backend (Nessie).
+* **(Future):** Mobile application envisioned using React Native or Flutter with location services.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Screenshots
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+![SpendSmart Dashboard](link-to-your-screenshot.png)
+
+## Challenges We Faced
+
+* Ensuring secure handling of user identifiers.
+* Initially considering and then pivoting from GET requests to more secure POST requests for data retrieval.
+* Understanding the data model of the Nessie API.
+
+## Accomplishments We're Proud Of
+
+* Building a functional Chrome extension showcasing real-world spending data visualization.
+* Implementing a secure authentication flow using POST requests.
+* Creating an intuitive dashboard with clear spending breakdowns and pace tracking.
+
+## What We Learned
+
+* Developing Chrome extensions and utilizing Chrome's API.
+* Working with the Nessie API and understanding real-world banking data structures.
+* Prioritizing user security in API interactions.
+* Collaborative development using Git and GitHub.
+
+## What's Next
+
+* Integrating AI for personalized spending insights.
+* Developing a mobile application with location-based spending alerts.
+* Refining the user interface and adding more detailed analytics.
+* Exploring integration with actual financial APIs (with user authorization).
+
+## Team
+
+* Lianyu Peng
+* Brian Xie
+* Jonathan Lee
