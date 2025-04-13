@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    border-radius: 8px; /* Add border-radius to the body */
+    overflow: hidden; /* Important to prevent content from overflowing rounded corners */
+}
+  
+.container {
+    background-color: #fff;
+    padding: 30px;
+    /* Remove border-radius from container if you only want it on the outer layer */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+}  
+  
+#ext_name {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+error_msg{
+    color: red;
+    margin-top: 4px;
+    font-size: .6rem;
+}
+  
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+  
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+/* displayPage */
+.container2 {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    text-align: left;
+    width: 350px; /* Slightly wider container */
+    margin: 20px auto;
+    font-family: sans-serif; /* Consistent font */
+  }
+  
+.container2 h1 {
+    color: #2c3e50; /* Darker heading color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em; /* Larger heading */
+}
+  
+.container2 p {
+    color: #34495e; /* Darker paragraph color */
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+  
+.container2 strong {
+    font-weight: bold;
+    color: #1abc9c; /* Teal highlight color */
+}
+  
+.container2 h2 {
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #ecf0f1; /* Subtle bottom border for the subheading */
+    padding-bottom: 8px;
+}
+  
+.container2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.container2 li {
+    color: #34495e;
+    padding: 10px 0;
+    border-bottom: 1px solid #ecf0f1;
+    display: flex; /* Align category and amount */
+    justify-content: space-between; /* Space them out */
+}
+  
+.container2 li:last-child {
+    border-bottom: none;
+}
+  
+  /* Optional: Style for the remaining amount if it's negative (overspent) */
+.container2 .remaining-negative {
+    color: #e74c3c; /* Red color for negative remaining amount */
+    font-weight: bold;
+}

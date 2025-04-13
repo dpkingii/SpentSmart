@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "SpendSmart",
+    "version": "1.0",
+    "permissions": ["storage"],
+    "host_permissions": ["https://api.example.com/"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.jpg"
+    }
+}
