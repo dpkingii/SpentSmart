@@ -23,7 +23,17 @@ Inspired by the surprise many feel when reviewing monthly expenses, SpendSmart a
 
 ## Screenshots
 
-![SpendSmart Dashboard](link-to-your-screenshot.png)
+### Chrome Extension
+![](screenshots/IMG_3643.png)
+![](screenshots/IMG_4261.PNG)
+
+### Mobile App
+![](screenshots/IMG_4262.PNG)
+![](screenshots/IMG_4263.PNG)
+![](screenshots/IMG_4264.PNG)
+![](screenshots/IMG_4265.PNG)
+![](screenshots/IMG_4266.PNG)
+![](screenshots/IMG_7918.png)
 
 ## Challenges We Faced
 
