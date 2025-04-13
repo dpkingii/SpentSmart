@@ -21,7 +21,7 @@ Inspired by the surprise many feel when reviewing monthly expenses, SpendSmart a
 * **Data Fetching:** Utilizes Chrome's runtime messaging API for secure communication with the backend (Nessie).
 * **(Future):** Mobile application envisioned using React Native or Flutter with location services.
 
-## Screenshots
+## Screenshot
 
 ### Chrome Extension
 <img src="screenshots/IMG_3643.png" width="400"> <img src="screenshots/IMG_7918.png" height="250">
